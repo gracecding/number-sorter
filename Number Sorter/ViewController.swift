@@ -209,8 +209,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //sortedNumbersLabel.sizeToFit()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        orderSelector.center.x = self.view.center.x
     }
 
     override func didReceiveMemoryWarning() {
